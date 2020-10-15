@@ -11,6 +11,7 @@
     position: fixed;
     left: 0;
     top: 0;
+    height: 150vh;
     z-index: -1;
 }
 

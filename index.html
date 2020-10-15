@@ -8,20 +8,25 @@
 </head>
 <body>
     <main class="main">
-        <video class="video" loop>
-            <source src="assets/video/rain.mp4" type="video/mp4">
-        </video>
+        <video src="assets/video/rain.mp4" class="video" loop></video>
+        <audio src="assets/sounds/rain.mp3" class="sound"></audio>
         <div class="duration">
             <button class="duration__minutes duration__minutes--2minutes">2 Minutes</button>
             <button class="duration__minutes duration__minutes--5minutes">5 Minutes</button>
             <button class="duration__minutes duration__minutes--10minutes">10 Minutes</button>
         </div>
         <div class="control">
-            <img src="assets/svg/track-outline.svg" alt="track-outline" class="control__element control__element--track-outline">
-            <img src="assets/svg/moving-outline.svg" alt="moving-outline" class="control__element control__element--moving-outline">
+            <svg class="control__element control__element--track-outline" width="453" height="453" viewBox="0 0 453 453"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="white" stroke-width="20" />
+            </svg>
+            <svg class="control__element control__element--moving-outline" width="453" height="453"
+                viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle class="control__circle" cx="226.5" cy="226.5" r="216.5" stroke="#018EBA" stroke-width="20" />
+            </svg>
             <img src="assets/svg/play.svg" alt="play" class="control__element control__element--play">
             <img src="assets/svg/replay.svg" alt="replay" class="control__element control__element--replay">
-            <span class="control__element control__element--time">00.00</span>
+            <span class="control__element control__element--time">0:0</span>
         </div>
         <div class="switcher-video">
             <div class="switcher-video__video switcher-video__video--first">
